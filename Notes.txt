@@ -1,0 +1,9 @@
+Notes:
+---------------------------------------
+Create .env file => Put all API keys
+Create virtual conda environment using command => conda create -p venv python==3.10
+Activate this environment using command => conda activate <path>
+Install all the packages using command => pip install -r requirements.txt
+Test whether all the Utility functions are working fine in app.ipynb
+Run the app.py using command => streamlit run app.py
+Tips: You can find the version of library (e.g. sklearn) using command => pip freeze | findstr sklearn
